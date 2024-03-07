@@ -1,0 +1,522 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.bg-color.scrolled{
+	background-color: #212529;
+}
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+nav .navbar-brand {
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+  margin-left: 8%;
+}
+nav .navbar-brand:hover {
+  color: white;
+}
+nav button {
+  color: white;
+  text-decoration: none;
+  border: none;
+} 
+nav ul {
+  font-size: 16px;
+  margin-left: 2%;
+}
+nav ul li {
+  margin: 8px;
+}
+nav ul li .nav-link {
+  color: white;
+}
+nav ul li a:hover{
+  color: white;
+}
+nav ul li:hover{
+  border-bottom: 2px solid #009961;
+}
+.badge{
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+
+}
+
+.hero{
+	background-image: url("../img/hero-bg.jpg");
+	width: 100%;
+	height: 110vh;
+	background-size: cover;
+	padding-top: 80px;
+	box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+
+}
+.menu-btn{
+	background-color: green;
+	width: 110px;
+	height: 110px;
+	border: none;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.i{
+	font-size: 30px;
+	color: white;
+}
+.hero h1{
+	font-size: 50px;	
+	padding-top: 100px;
+	color: white;
+	/*border-bottom:  1px solid green;*/
+
+}
+.hero h2{
+	font-size: 25px;
+	padding-top: 20px;
+	color: white;
+}
+
+.about h3{
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.about h3::after{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+    background: #009961;
+    bottom: 0;
+    left: 0;
+}
+ .btn-learn-more {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #009961;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #009961;
+}
+a{
+	color: #009961;
+	text-decoration: none;
+}
+.about a:hover{
+	color: white;
+	background-color: #009961;
+}
+.about i{
+	padding-right: 5px;
+	color: #009961;
+}
+#Services h3{
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+#Services h3::after{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+    background: ;
+    bottom: 0;
+    left: 0;
+}
+#Services .service-card i{
+	width: 70px;
+    height: 70px;
+    background-color: #009961;
+    border-radius: 50%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.card-body h5{
+	font-size: 25px;
+	padding-top: 15px ;
+}
+.card-body p{
+	padding: 15px 0px 15px;
+	font-size: 15px;
+}
+.card-border{
+	border: none;
+	border-radius: 10px;
+	/*background-color: red;*/
+
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+.card-border:hover{
+	border-bottom: 5px solid #009961;
+}
+
+
+#call-to-action{
+	margin-top: 70px;
+	background-image: url(../img/cta-bg.jpg);
+	width: 100%;
+	height: 50vh;
+	box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+
+}
+.call-text{
+	padding-top: 100px;
+}
+.call-text h4{
+	color: white;
+	font-size: 30px;
+}
+.call-text p{
+	color: white;
+	font-size: 15px;
+}
+.call-btn{
+	padding-top: 120px;
+}
+.btn-call{
+	font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+    background: #009961;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+}
+
+.badge-call{
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+}
+#features{
+	margin-top: 80px;
+}
+.icon-box{
+    padding: 20px 0px;	
+}
+.features .icon-box i {
+    font-size: 48px;
+    float: left;
+    color: #009961;
+}
+.features .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 60px;
+}
+.features .icon-box p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 60px;
+}
+.features .image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.features .image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    /*width: 400px;*/
+}
+#clients{
+	margin-top: 90px;
+}
+.client-logo{
+	padding: 64px;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    /*border-top: 1px solid #e7e7e7;*/
+    overflow: hidden;
+    background: #fff;
+    height: 140px;
+}
+.client-logo img{
+	width: 200px;
+
+}
+
+
+#number{
+	background-image: url("../img/counts-bg.jpg");
+	margin-top: 70px;
+	/*background-image: url(../img/cta-bg.jpg);*/
+	width: 100%;
+	height: 110vh;
+	box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+}
+.number-text h4{
+	color: white;
+	font-size: 40px;
+}
+.number-text p{
+	color: white;
+	font-size: 17px;
+}
+.number-1 h3{
+	font-size: 50px;
+	color: #009961;
+}
+.number-1 p{
+	color: white;
+}
+#Pricing h3{
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.pricing{
+	background-color: #f9f9f9;
+	margin-top: 50px;
+	padding-top: 40px;
+}
+#Pricing h3::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #009961;
+    bottom: 0;
+    left: 0;
+}
+#Pricing p{
+	color: #777777;	
+}
+#Pricing .box{
+	background-color: #fefefe;
+	text-align: center;
+	padding: 40px 20px;
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);;
+}
+#Pricing .box h2{
+	padding: 15px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #282828;
+}
+#Pricing .box h4{
+    font-size: 42px;
+    color: #009961;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+#Pricing .box li{
+	list-style: none;
+	padding-bottom: 16px;
+}
+#Pricing .box h4 sub {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+#Pricing .box h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+#Pricing .box .na{    
+	text-decoration: line-through;
+	color: #ccc;
+
+}
+#Pricing .recommended{
+	border-color: #009961;
+}
+#Pricing .recommended-badge {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 13px;
+    padding: 3px 25px 6px 25px;
+    background: #edfbf0;
+    /*color: #009961;*/
+    border-radius: 50px;
+}
+#Pricing .box .btn-wrap{
+	padding: 15px;
+    text-align: center;
+}
+#Pricing .box .btn-buy{
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #009961;
+    /*color: #009961;*/
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.box .btn-wrap .btn-buy:hover{
+	color: white;
+	background-color: #009961;
+}
+
+/*a{
+	color: #009961;
+	text-decoration: none;
+}*/
+#Pricing .recommended .btn-buy {
+    background: #009961;
+    color: #fff;
+}
+#Pricing .recommended .btn-wrap .btn-buy:hover{
+	color: white;
+	background-color: green;
+}
+
+#questions .questions-text{
+	background-color: rgb(240, 240, 240);
+	margin-bottom: 20px;
+}
+#questions .questions-text h4{
+	font-size: 40px;
+}
+#questions .questions-text p{
+	color: #848484;	
+	font-size: 15px;
+}
+.drop-1{
+	background-color: white;
+	padding: 17px 10px;
+	margin-bottom: 11px;
+	display: flex;
+    justify-content: space-between;
+
+}
+.drop-1:hover{
+	color: #009961;
+}
+.questions-img img{
+	width: 550px;
+    height: 440px;
+}
+
+#Contact h3{
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+/*#Contact{
+	background-color: #f9f9f9;
+	margin-top: 50px;
+	padding-top: 40px;
+}*/
+#Contact h3::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #009961;
+    bottom: 0;
+    left: 0;
+}
+#Contact p{
+	color: #777777;	
+}
+
+.map iframe{
+	width: 100%;
+	height: 50vh;
+}
+.Contact-icon i {
+    font-size: 30px;
+    float: left;
+    color: #009961;
+}
+.Contact-icon h4{
+	font-size: 30px;
+	padding-left: 50px;
+}
+.Contact-icon p{
+	font-size: 15px;
+	padding-left: 50px;
+}
+
+.btn-wrap .btn-massage{
+  display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #009961;
+    color: #009961;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-wrap .btn-massage:hover{
+	color: white;
+	background-color: #009961;
+}
+
+#footer{
+	background-color: black;
+}
+#footer h3{
+	font-size: 40px;
+	color: white;
+	/*padding: 20px 0px;*/
+}
+#footer p{
+	font-size: 15px;
+	color: white;
+	padding-top: 7px;
+}
+#footer .footer-icon i{
+	padding: 10px 10px;
+	margin: 0px 5px;
+	background-color: #009961;
+	border-radius: 50% 50%;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#footer h6{
+	color: white;
+	font-size: 14px;
+}
